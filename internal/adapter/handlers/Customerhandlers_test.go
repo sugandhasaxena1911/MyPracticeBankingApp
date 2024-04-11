@@ -8,9 +8,15 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
+<<<<<<< HEAD
 	"github.com/sugandhasaxena1911/MyPracticeBankingApp/helpers/error"
 	"github.com/sugandhasaxena1911/MyPracticeBankingApp/internal/core/dto"
 	"github.com/sugandhasaxena1911/MyPracticeBankingApp/internal/core/ports/mocks/service"
+=======
+	"github.com/sugandhasaxena19/MyPracticeBankingApp/helpers/error"
+	"github.com/sugandhasaxena19/MyPracticeBankingApp/internal/core/dto"
+	"github.com/sugandhasaxena19/MyPracticeBankingApp/internal/core/ports/mocks/service"
+>>>>>>> 27c2bab4ae9973b95478eedee3812fd6c4b17ae0
 )
 
 func Test_GetAllCustomers_return_custs_200OK(t *testing.T) {

@@ -10,10 +10,17 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
+<<<<<<< HEAD
 	"github.com/sugandhasaxena1911/MyPracticeBankingApp/helpers/logger"
 	handlers "github.com/sugandhasaxena1911/MyPracticeBankingApp/internal/adapter/handlers"
 	repository "github.com/sugandhasaxena1911/MyPracticeBankingApp/internal/adapter/repository"
 	"github.com/sugandhasaxena1911/MyPracticeBankingApp/internal/core/service"
+=======
+	"github.com/sugandhasaxena19/MyPracticeBankingApp/helpers/logger"
+	handlers "github.com/sugandhasaxena19/MyPracticeBankingApp/internal/adapter/handlers"
+	repository "github.com/sugandhasaxena19/MyPracticeBankingApp/internal/adapter/repository"
+	"github.com/sugandhasaxena19/MyPracticeBankingApp/internal/core/service"
+>>>>>>> 27c2bab4ae9973b95478eedee3812fd6c4b17ae0
 )
 
 var DBClient *sql.DB
